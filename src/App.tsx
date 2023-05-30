@@ -1,10 +1,11 @@
+import Form from "./components/Form";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Form />
+        </div>
+    );
 }
 
 export default App;
