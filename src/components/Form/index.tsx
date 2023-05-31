@@ -9,7 +9,7 @@ class Form extends React.Component<{
 }> {
     state = {
         task: "",
-        time: "10:00:00",
+        time: "00:00:00",
     };
 
     addTask(event: React.FormEvent<HTMLFormElement>) {
