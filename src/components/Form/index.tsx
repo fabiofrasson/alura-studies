@@ -16,7 +16,7 @@ class Form extends React.Component<{
         event.preventDefault();
         this.props.setTasks((oldTasks) => [
             ...oldTasks,
-            { ...this.state, picked: false, finished: false, id: uuidv4() },
+            { ...this.state, selected: false, finished: false, id: uuidv4() },
         ]);
         this.setState({
             task: "",
