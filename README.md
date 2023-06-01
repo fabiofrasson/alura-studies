@@ -36,7 +36,7 @@ Este projeto foi desenvolvido seguindo o curso "[React: escrevendo com Typescrip
 
 3. Clone o repositório do projeto executando o seguinte comando:  
 
-		git clone https://github.com/fabiofrasson/github-repositories-list.git
+		git clone https://github.com/fabiofrasson/alura-studies.git
 
   
 
@@ -44,7 +44,7 @@ Este projeto foi desenvolvido seguindo o curso "[React: escrevendo com Typescrip
 
 5. Navegue até o diretório do projeto clonado usando o seguinte comando:
 
-		cd github-repositories-list  
+		cd alura-studies  
 
 6. Instale as dependências do projeto executando o comando:
 
