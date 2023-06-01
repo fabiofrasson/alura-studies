@@ -1,46 +1,49 @@
-# Getting Started with Create React App
+# Alura Studies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
+Este projeto foi desenvolvido seguindo o curso "[React: escrevendo com Typescript](https://cursos.alura.com.br/course/react-modernizando-escrever-typescript)" e consiste em um timer para estudos.
 
-## Available Scripts
+## Tópicos abordados
+- Criação de um projeto React com Typescript do zero com Create React App;
+-   Componentização, Props e State;
+-   CSS Modules;
+-   Hooks useState e useEffect e como estes eram usados nos class components;
+-   Functional components;
+-   Conceitos de boas práticas como DRY (Don't repeat yourself) e SRP (Single Responsibility Principle).
 
-In the project directory, you can run:
+## Como rodar o projeto na sua máquina
+1. Certifique-se de ter o Git instalado em sua máquina. Você pode verificar digitando o seguinte comando no terminal:
 
-### `npm start`
+		git --version
+Se o Git não estiver instalado, você pode baixá-lo e instalá-lo a partir do site oficial do Git.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Abra o terminal ou prompt de comando e navegue até o diretório em que deseja clonar o projeto ReactJS.
+3. Clone o repositório do projeto executando o seguinte comando:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+		git clone https://github.com/fabiofrasson/github-repositories-list.git
 
-### `npm test`
+4. Após a conclusão do comando, você terá uma cópia local do projeto ReactJS em seu diretório atual.
+5. Navegue até o diretório do projeto clonado usando o seguinte comando:
+		
+		cd github-repositories-list
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Instale as dependências do projeto executando o comando:
 
-### `npm run build`
+		npm i
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Certifique-se de ter o Node.js e o npm (gerenciador de pacotes do Node.js) instalados em sua máquina. Você pode baixá-los e instalá-los a partir do site oficial do Node.js.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. Após a conclusão da instalação das dependências, você pode iniciar o servidor de desenvolvimento executando o seguinte comando:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+		npm start
+Isso iniciará o servidor de desenvolvimento e abrirá o projeto ReactJS no seu navegador padrão.
 
-### `npm run eject`
+8. Abra o navegador e digite a URL `http://localhost:3000/` na barra de endereço.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Utilização da aplicação
+1. No campo `O que você quer estudar` digite o que gostaria de estudar;
+2. Em seguida, clique no ícone de relógio no campo abaixo de `Tempo` e selecione uma quantidade de minutos e segundos;
+3. Clique em `Adicionar`. Seu item de estudo aparecerá em `Estudos do dia`;
+4. Adicione mais itens ou selecione o item recém adicionado na parte inferior da tela;
+5. Clique em `Começar` para que o timer inicie a contagem regressiva.
